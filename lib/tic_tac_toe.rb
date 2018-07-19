@@ -197,6 +197,10 @@ def current_player (board)
   end 
 end
 
-
+def play (board)
+  until over?(board) == true 
+    
+  input=gets
+end 
 
 
