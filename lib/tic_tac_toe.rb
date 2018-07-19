@@ -39,7 +39,7 @@ def turn(board)
   user_input = gets.strip
   user_input = input_to_index(user_input)
   if valid_move?(board, user_input)
-    move(board, user_input, current_player)
+    move(board, user_input, current_player(board))
     puts display_board(board)
   else
     puts "That is an invalid entry!"
