@@ -200,7 +200,7 @@ end
 
 def play
   while over? == false
-    turn
+    turn(board)
   end
   if won?
     puts "Congratulations #{winner}!"
