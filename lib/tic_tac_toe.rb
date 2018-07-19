@@ -198,7 +198,7 @@ def current_player (board)
 end
 
 
-def play
+def play (board)
     while !over?
       turn
     end
