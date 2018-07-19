@@ -199,8 +199,7 @@ end
 
 def play (board)
   turn(board)
-  until over?==true 
-    turn(board)
+ 
 end 
 
 
