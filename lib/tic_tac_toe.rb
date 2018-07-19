@@ -198,7 +198,8 @@ def current_player (board)
 end
 
 def play (board)
-  input = gets 
+  turn(board)
+  
 end 
 
 
