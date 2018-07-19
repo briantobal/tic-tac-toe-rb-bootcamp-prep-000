@@ -199,7 +199,9 @@ end
 
 def play (board)
   turn(board)
- 
+ #until the game is over 
+  #take turns 
+
 end 
 
 
