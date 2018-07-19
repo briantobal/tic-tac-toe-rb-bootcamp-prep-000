@@ -198,14 +198,15 @@ def current_player (board)
 end
 
 
-def play(board)
-  while over? == false
-    turn(board)
+def play
+    while !over?
+      turn
+    end
+    if won?
+      puts "Congratulations #{winner}!"
+    elsif draw?
+      puts "Cats Game!"
+    end
   end
-  if won?
-    puts "Congratulations #{winner}!"
-  elsif draw?
-    puts "Cat's Game!"
-  end
-end
+
 
