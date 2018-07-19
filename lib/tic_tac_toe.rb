@@ -200,7 +200,7 @@ end
 
 def play (board)
     while !over?
-      turn
+      turn(board)
     end
     if won?
       puts "Congratulations #{winner}!"
