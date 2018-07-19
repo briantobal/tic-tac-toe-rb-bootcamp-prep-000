@@ -198,8 +198,8 @@ def current_player (board)
 end
 
 
-def play
-  while over? == false
+def play(board)
+  while over?(board) == false
     turn(board)
   end
   if won?
